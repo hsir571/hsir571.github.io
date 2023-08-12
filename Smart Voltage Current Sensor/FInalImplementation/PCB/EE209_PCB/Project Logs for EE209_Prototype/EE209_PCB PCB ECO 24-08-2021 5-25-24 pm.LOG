@@ -1,0 +1,47 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Pin To Net: NetName=GND Pin=1-1
+Added Pin To Net: NetName=GND Pin=1-1
+Added Pin To Net: NetName=Vis Pin=1-2
+Added Pin To Net: NetName=Vis Pin=1-2
+Added Pin To Net: NetName=GND Pin=1k-1
+Added Pin To Net: NetName=Vvs Pin=1k-2
+Added Pin To Net: NetName=GND Pin=10k-1
+Added Pin To Net: NetName=Vin Pin=10k-1
+Added Pin To Net: NetName=Net10k_2 Pin=10k-2
+Added Pin To Net: NetName=2.1V Pin=100k-1
+Added Pin To Net: NetName=Vvs Pin=100k-1
+Added Pin To Net: NetName=Net10k_2 Pin=100k-2
+Added Pin To Net: NetName=Net100k_2 Pin=100k-2
+Added Pin To Net: NetName=Vsc Pin=100k-2
+Added Pin To Net: NetName=Vsc Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=Vsc Pin=P?-1
+Added Pin To Net: NetName=Vis Pin=P?-2
+Added Pin To Net: NetName=Net100k_2 Pin=U1-1
+Added Pin To Net: NetName=Net10k_2 Pin=U1-3
+Added Pin To Net: NetName=5V Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=GND Pin=U1-10
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=NetU1_6 Pin=U1-6
+Added Pin To Net: NetName=NetU1_6 Pin=U1-7
+Added Net: Name=NetU1_6
+Added Pin To Net: NetName=NetU1_8 Pin=U1-8
+Added Pin To Net: NetName=NetU1_8 Pin=U1-9
+Added Net: Name=NetU1_8
+Added Pin To Net: NetName=NetU1_13 Pin=U1-13
+Added Pin To Net: NetName=NetU1_13 Pin=U1-14
+Added Net: Name=NetU1_13
+Added Member To Class: ClassName=EE209_Schematic Member=Component 1k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 1 *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 1 *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 10k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 10k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 100k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 100k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component 100k *
+Added Member To Class: ClassName=EE209_Schematic Member=Component J? DC barrel jack
+Added Member To Class: ClassName=EE209_Schematic Member=Component P? Dual Banana Plugs
+Added Member To Class: ClassName=EE209_Schematic Member=Component U1 LM324
