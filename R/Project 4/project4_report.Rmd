@@ -1,0 +1,62 @@
+---
+title: "Project 4"
+subtitle: Visualising data about videos from the YouTube channels @IWDominatelol and @midbeast9495
+author: "Hrichik Sircar"
+date: "2024-05-10"
+output: html_document
+---
+<style>
+body {
+  background-color: #E0FFFF; /
+  color: #000000; /* Black */
+}
+h1{
+ color: blue; 
+}
+h2 {
+  color: #008B8B; 
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, message=FALSE, warning=FALSE, error=FALSE)
+
+
+
+```
+
+
+## Introduction 
+
+I chose Midbeast and IWDominate's youtube channels to analyze because I enjoy gaming and I play League of Legends. Both of these creators 
+make content around League of Legends which is why I chose them. One idea I had was to look at certain strings in the title to see 
+if they would garner more views,likes or comments. Another idea I had was to compare the viewer retention rate for each channel but did not have the data for that
+
+I chose to look at videos with the name "Faker" in them as he is considered to be the greatest of all time. I wanted to see if 
+there was spike in viewership when he was associated with the video. I used a bar graph to do this and then coloured it using a mutated column that checked whether "Faker" was in the title or not. Another plot I used was geom_point in combination with geom_hline. I used Faker to colour the pionts and used the median number of comments for the line to see if there was any unusual spikes above the average.
+
+## Dynamic data story 
+
+
+![Exploring Youtube Videos](data_story.gif)
+
+
+My Data Story demonstrates creativity by using different types of plots and also layering plots on top of each other. I used a custom dataset to fill or color the plots to try make them more expressive. 
+
+## Learning relection 
+  
+  One important idea I learned from the module is that it is important to make changes to the dataset you are using to alter or generate new     data. This new data can be used to create more informative and expressive graphs that are a lot better to show people. 
+  
+  I would be interested to see what other kind of data you could get from youtube videos. I initially wanted to look at the view retention rate   but the data collected does not have it. Also would be interested to look how these factors would alter the amount of money creators earn from each video.
+  
+## Appendix 
+
+
+```{r file='visualisations.R', eval=FALSE, echo=TRUE}
+
+```
+
+```{r file='data_story.R', eval=FALSE, echo=TRUE}
+
+```

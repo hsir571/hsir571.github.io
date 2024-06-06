@@ -1,0 +1,7 @@
+AUID: 501299719
+1a: Authorization: Basic ZGFudXRhOm5uaHM=
+1b: clora
+1c: asas
+2a: e5d8f4afa0c87dfba0b963207c77f0ae
+2b: 47ff0e39a416a44e51d848a7398cf7c7
+2c: 

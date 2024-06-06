@@ -1,0 +1,6 @@
+## Manipulating Vectors 
+
+* image_blank()
+* **image_append()**
+* *library()*
+* image_read()

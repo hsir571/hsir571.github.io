@@ -1,0 +1,78 @@
+---
+title: "Project 2"
+author: "Hrichik Sircar"
+date: "2024-03-25"
+output: 
+  html_document:
+    code_folding: hide 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, message=FALSE, warning=FALSE, error=FALSE)
+library(tidyverse)
+
+```
+
+```{css, echo=FALSE}
+body{
+  background-color:darkgrey; 
+}
+
+p{
+  padding: 15px; 
+  background-color: lightgrey; 
+}
+```
+
+## Introduction
+For my report I decided to focus on the amount of time people spend at the gym every week and their general overall fitness. I wanted to look at if going to the gym more times a week and spending more minutes there a week would lead to a better level of fitness. Also there is a question related to what exercises they do at the gym. This question is just to see if there is a particular exercises that more fit people tend to do. On the other hand people could just be running on the treadmill the entire time. 
+
+One of the guidelines was to have two questions with a numeric short answer response. When considering the design of my form I thought about questions that would require a numeric response and the limits of what the response should be within. For the first question, "How many times do you go to the gym this week?", the answer must be above 0 as it is impossible to go to the gym a negative amount of times. Also the answer must be a number. For the second questions, "How many minutes did you spend at the gym this week?", there is also a limit set so that the response can not be below 0 and the answer must also be a number. 
+
+Link to the Google form [here](https://forms.gle/GMDZzCpCo6GuQPUz5)
+
+## Analytics 
+
+The majority of people that completed my form visited the gym 0 or 4 times a week. 
+
+Barbell Bench press was the most popular exercise. 
+
+Most people responding to the form said that there were above average fitness. 
+
+```{r}
+library(tidyverse)
+
+#Read CSV and rename variables 
+learning_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRflaqCqWh8BudP1_9jJPUOHfxltZwpccLdl3UCFQyzK0rnb0hZ_xkGA8NayfcOQbdyIP3kjKfHKsD6/pub?gid=489714701&single=true&output=csv") %>%
+  rename("Visits" = 2, "Time(minutes)" = 3, "Fitness_Level" = 4, "Enjoyment_Level" = 5, "Exercise_Experience" = 6)
+
+
+# Making Some plots 
+# Plot of number of visits to the gym with blue bars
+visits <- ggplot(data = learning_data) +
+    geom_bar(aes(x = Visits), fill="blue")
+
+# Splitting the exercises into their own rows 
+learning_data_edit <- learning_data %>%
+  separate_rows(Exercise_Experience, sep = ",")
+
+# Plotting the different types of exercises people have done 
+exp <- ggplot(data = learning_data_edit) +
+  geom_bar(aes(x = Exercise_Experience), fill="yellow")
+
+# Displaying the plots
+print(visits)
+print(exp)
+
+```
+
+## Creativity 
+
+I have demonstrated creativity be implementing CSS styling into me report when it was not asked for. I have also changed the colours in my plots to make them different from each other. 
+
+## Learning reflection 
+
+One important thing that I have learn from this module is how to create proper forms. It is important that you specify when making the form what kind of answer you expect from the person filling it out. For example if you want a numeric answer you should enable response validation and set it to number for the input. Also it is important to set limits for numeric answers when appropriate.
+
+What I would be interesting in exploring is if there would be a way to produce live charts that update in real time whenever someone responds to the form. 
+
