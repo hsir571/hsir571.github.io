@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EmAyvX/fdWsLsQQ/VOkdrUHBIUgHxRTXjvK2NICi8tH+DDXCJWgkMqCU1UgLpWFB5n9ozyenrvBxjYAk8TW6aA==",
+  "dgSpecHash": "JpId0L6Yh7yCHBtyr6AirZOEu/NAX7QJB3vTIH+SjOyyjvd/637hIbLCgUDRmbnEdkWrh6YRtWHPW7WXh7LavA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Documents\\A2Template\\A2.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\Projects\\Authentication\\A2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",

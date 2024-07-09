@@ -1766,11 +1766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\A2Template\\A2.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\Projects\\Authentication\\A2.csproj",
       "projectName": "A2",
-      "projectPath": "C:\\Users\\user\\Documents\\A2Template\\A2.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\Projects\\Authentication\\A2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\A2Template\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\Projects\\Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
