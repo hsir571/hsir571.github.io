@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\MusicPlayerApp.exe.config
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\MusicPlayerApp.exe
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\MusicPlayerApp.pdb
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.csproj.AssemblyReference.cache
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\App.g.cs
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp_MarkupCompile.cache
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp_MarkupCompile.lref
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.g.resources
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.exe
+C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\MusicPlayerApp.pdb
