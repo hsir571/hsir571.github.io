@@ -16,7 +16,6 @@ namespace MusicPlayerApp
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
 
-        public String testing = "Im testing this out";
         
         
         public event PropertyChangedEventHandler PropertyChanged;
@@ -52,32 +51,15 @@ namespace MusicPlayerApp
         {
 
         }
-        public String Test
-        {
-            get => testing;
-            set
-            {
-                if (value == testing)
-                {
-                    return;
-                }
-                testing = value;
-                OnPropertyChanged();
-            }
-        }
-
-
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Test = "wow i made it work";
-        }
 
         protected virtual void OnPropertyChanged(string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
 
+        }
     }
 }

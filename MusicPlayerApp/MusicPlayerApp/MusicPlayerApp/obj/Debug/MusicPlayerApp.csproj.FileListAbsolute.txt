@@ -54,4 +54,3 @@ C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlaye
 C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\System.Text.Json.xml
 C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\bin\Debug\System.ValueTuple.xml
-C:\Users\user\Documents\GitHub\Projects\MusicPlayerApp\MusicPlayerApp\MusicPlayerApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
