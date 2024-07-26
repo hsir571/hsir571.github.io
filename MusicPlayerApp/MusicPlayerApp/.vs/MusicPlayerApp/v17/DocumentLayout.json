@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|c:\\users\\hrik\\documents\\github\\projects\\musicplayerapp\\musicplayerapp\\musicplayerapp\\model\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\model\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|c:\\users\\hrik\\documents\\github\\projects\\musicplayerapp\\musicplayerapp\\musicplayerapp\\mvvm\\model\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mvvm\\model\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|c:\\users\\hrik\\documents\\github\\projects\\musicplayerapp\\musicplayerapp\\musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\musicplayerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\musicplayerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3DF1E7E-2A45-4566-BD9A-7A360C83F9C7}|MusicPlayerApp\\MusicPlayerApp.csproj|solutionrelative:musicplayerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,18 +32,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TrackModel.cs",
-              "DocumentMoniker": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\Model\\TrackModel.cs",
-              "RelativeDocumentMoniker": "MusicPlayerApp\\Model\\TrackModel.cs",
-              "ToolTip": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\Model\\TrackModel.cs",
-              "RelativeToolTip": "MusicPlayerApp\\Model\\TrackModel.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAqwJEAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\MVVM\\Model\\TrackModel.cs",
+              "RelativeDocumentMoniker": "MusicPlayerApp\\MVVM\\Model\\TrackModel.cs",
+              "ToolTip": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\MVVM\\Model\\TrackModel.cs",
+              "RelativeToolTip": "MusicPlayerApp\\MVVM\\Model\\TrackModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-18T04:13:32.884Z",
+              "WhenOpened": "2024-07-25T03:49:39.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\App.xaml",
               "RelativeDocumentMoniker": "MusicPlayerApp\\App.xaml",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MusicPlayerApp\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Hrik\\Documents\\GitHub\\Projects\\MusicPlayerApp\\MusicPlayerApp\\MusicPlayerApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MusicPlayerApp\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAJoAAAAAAAAAAAAnwLEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-18T00:49:23.277Z",
               "EditorCaption": ""
