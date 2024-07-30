@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-
+using System.Windows.Media;
 
 namespace MusicPlayerApp
 {
@@ -60,6 +60,32 @@ namespace MusicPlayerApp
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
 
+        }
+
+        private void Border_IsMouseDirectlyOverChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+
+            TextBlock textBlock = sender as TextBlock;
+
+            if(textBlock != null)
+            {
+                if(textBlock.IsMouseDirectlyOver)
+                {
+                    textBlock.Background = new SolidColorBrush(Color.FromArgb(255, 85, 0, 255));
+                }
+                else
+                {
+                    textBlock.Background = (Brush)new BrushConverter().ConvertFromString("#00b3b3");
+                }
+            }
+
+            
+            
+        }
+
+        private void Button_IsMouseDirectlyOverChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            
         }
     }
 }
