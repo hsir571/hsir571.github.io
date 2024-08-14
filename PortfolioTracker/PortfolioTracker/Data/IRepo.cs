@@ -3,6 +3,7 @@
     public interface IRepo
     {
 
-        Task GetStocks(); 
+        Task GetStockData(string symbol); 
+        Task<int> AddStock(string symbol);
     }
 }

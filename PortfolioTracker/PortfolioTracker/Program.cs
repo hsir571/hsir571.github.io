@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddScoped<IRepo, Repo>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -41,3 +42,4 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+

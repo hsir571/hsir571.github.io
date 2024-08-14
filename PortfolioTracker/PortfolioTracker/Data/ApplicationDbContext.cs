@@ -17,7 +17,8 @@ namespace PortfolioTracker.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-           
+            builder.Entity<Stock>().HasIndex(s => s.Name).IsUnique();
+            builder.Entity<StockPriceDate>().HasIndex(s => new { s.StockId, s.Date }).IsUnique();
             base.OnModelCreating(builder);
         }
     }
