@@ -1,5 +1,80 @@
 ﻿@{
-	ViewData["Title"] = "Stocks";
-}    
+    ViewData["Title"] = "Stocks";
+    var chartDataJson = ViewData["ChartData"] as string;
+    var stocks = ViewData["Stocks"] as List<string>;
+
+}
 
 <h1>@ViewData["Title"]</h1>
+<h2>Currently Displaying Share Prices of @ViewData["SelectedSymbol"]</h2>
+
+
+<form method="get" asp-action="Stocks">
+    <label for="symbol">Select Stock:</label>
+    <select id="symbol" name="symbol">
+        <option value="">Select a stock</option>
+        @foreach (var stock in stocks)
+        {
+            <option value="@stock">@stock</option>
+        }
+    </select>
+    <button type="submit">Update Chart</button>
+</form>
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // Parse the chart data from the server
+    const chartData = JSON.parse('@Html.Raw(chartDataJson)');
+    console.log(chartData);
+    // Convert the data into arrays for labels and values
+    const labels = chartData.map(item => new Date(item.Item1).toLocaleDateString());
+    const data = chartData.map(item => item.Item2);
+
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Stock Price',
+                data: data,
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                borderWidth: 1,
+                fill: true
+            }]
+        },
+        options: {
+            scales: {
+                x: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: "Date"
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: "Price"
+                }
+                }
+               
+            }
+        }
+    });
+</script>
