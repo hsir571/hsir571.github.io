@@ -1,0 +1,122 @@
+﻿@{
+	var selectedChampion = ViewData["selectedChampion"] as Newtonsoft.Json.Linq.JObject;
+	var allChampions = ViewData["allChampions"] as Newtonsoft.Json.Linq.JObject;
+	
+		
+	
+}
+
+<body>
+		<form method="get" asp-action="Champions">
+		<label>Choose Champion</label>
+		<select id="champion" name="champion">
+
+			<option value="">Select a champion</option>
+			@foreach (var champion in allChampions.Properties())
+			{
+				<option value="@champion.Value["name"]">@champion.Value["name"]</option>
+			}
+		</select>
+		<input type="submit" value="Get Info"/>
+		</form>
+
+	@if (selectedChampion != null)
+	{
+		string championArt = "https://ddragon.leagueoflegends.com/cdn/img/champion/loading/" + selectedChampion["name"] + "_0.jpg";
+		
+		<br />
+		
+		<h1>@selectedChampion["name"]</h1>
+		<h3>@selectedChampion["title"]</h3>
+		<br />
+		<br />
+		<div class="row">
+			<div class="col-6">	
+				<h2><strong>Lore: </strong></h2>
+				<p>@selectedChampion["lore"]</p>
+			</div>
+			<div class="col-3">
+				<img class="img-fluid" src=@championArt />
+			</div>
+			<div id="championStats" class="col-3">
+	
+					<h4 style="text-align:center;padding:10px;"><strong>Champion Stats</strong></h4>
+
+				<div id="stats" class="row">
+					<div class="col">
+						<p>Hp: <span class="stat-value">@selectedChampion["stats"]["hp"]</span></p>
+					</div>
+					<div class="col">
+						<p>Hp Per Level: <span class="stat-value">@selectedChampion["stats"]["hpperlevel"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Armor: <span class="stat-value">@selectedChampion["stats"]["armor"]</span></p>
+					</div>
+					<div class="col">
+						<p>Armor Per Level: <span class="stat-value">@selectedChampion["stats"]["armorperlevel"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Magic Resist: <span class="stat-value">@selectedChampion["stats"]["spellblock"]</span></p>
+					</div>
+					<div class="col">
+						<p>Magic Resist Per Level: <span class="stat-value">@selectedChampion["stats"]["spellblockperlevel"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Attack Damage: <span class="stat-value">@selectedChampion["stats"]["attackdamage"]</span></p>
+					</div>
+					<div class="col">
+						<p>Attack Damage Per Level: <span class="stat-value">@selectedChampion["stats"]["attackdamageperlevel"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Attack Speed: <span class="stat-value">@selectedChampion["stats"]["attackspeed"]</span></p>
+					</div>
+					<div class="col">
+						<p>Attack Speed Per Level: <span class="stat-value">@selectedChampion["stats"]["attackspeedperlevel"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Move Speed: <span class="stat-value">@selectedChampion["stats"]["movespeed"]</span></p>
+					</div>
+					<div class="col">
+						<p>Attack Range: <span class="stat-value">@selectedChampion["stats"]["attackrange"]</span></p>
+					</div>
+					<div class="w-100"></div>
+					<div class="col">
+						<p>Health Regen: <span class="stat-value">@selectedChampion["stats"]["hpregen"]</span></p>
+					</div>
+					<div class="col">
+						<p>Health Regen Per Level: <span class="stat-value">@selectedChampion["stats"]["hpregenperlevel"]</span></p>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+	}
+	else
+	{
+		<p>Select a champion to see details.</p>
+	}
+
+
+
+
+
+
+
+
+</body>
