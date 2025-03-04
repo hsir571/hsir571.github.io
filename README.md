@@ -1,6 +1,6 @@
-## A Repo of the projects I have done while studying at Universtiy or in my own time.
+## A Repo of my projects while studying at university or in my own time.
 
-My Capstone project which I received an Excellence Award for can be found [here](https://www.capitalise.space/projects/6678b13a9df43)
+My Capstone project, for which I received an Excellence Award, can be found [here](https://www.capitalise.space/projects/6678b13a9df43)
 
 
 
